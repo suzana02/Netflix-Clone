@@ -4,11 +4,11 @@ import requests from "../../../utils/requests";
 const RowList = () => {
 	return (
 		<>
-			<Row
+			{/* <Row
 				title="NETFLIX ORIGINALS"
 				fetchUrl={requests.fetchNetflixOriginals}
 				isLargeRow={true}
-			/>
+			/> */}
 			<Row
 				title="NETFLIX ORIGINALS"
 				fetchUrl={requests.fetchNetflixOriginals}
